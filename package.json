@@ -1,0 +1,17 @@
+{
+   "name": "action-verify-repository-acccess",
+   "version": "1.0.0",
+   "license": "MIT",
+   "scripts": {
+      "format": "yarn format:js && yarn format:yaml",
+      "format:js": "prettier --write '**/*.js'",
+      "format:yaml": "prettier --parser yaml --write '**/*.{yml,yaml}'"
+   },
+   "dependencies": {
+     "@actions/core": "1.2.6",
+     "@actions/github": "4.0.0"
+   },
+   "devDependencies": {
+     "prettier": "2.1.2"
+   }
+ }
